@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #878787;
+  color: #f3d80d;
   font-size: 24px;
   font-weight: 100px;
   line-height: 28px;
@@ -19,7 +19,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: rgb(135, 135, 135);
+  color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -38,6 +38,11 @@ a {
   padding: 20px;
   border: 1px solid #0865df;
   border-radius: 5px;
+  background: radial-gradient(
+    circle at 50.3% 44.5%,
+    rgb(116, 147, 179) 0%,
+    rgb(62, 83, 104) 100.2%
+  );
 }
 
 .overview {
@@ -51,7 +56,7 @@ a {
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: #f3d80d;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
